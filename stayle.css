@@ -1,0 +1,169 @@
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+    * {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: var(--whaet);
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        transition: all .2s linear;
+    }
+    
+     :root {
+        --blou: rgb(48, 95, 156);
+        --whaet: rgb(255, 255, 255);
+        --bloux: rgba(94, 100, 190, 0.5);
+    }
+    
+    *::selection {
+        background: var(--blou);
+        color: var(--whaet);
+    }
+    
+    body {
+        margin: 0vh;
+        padding: 0vh;
+        background: linear-gradient(175deg, #1c80c2, #71a1ce);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    .container {
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .location {
+        width: 100%;
+        height: 60px;
+    }
+    
+    .t {
+        border-left: 1px var(--whaet) solid;
+        position: absolute;
+        left: 50%;
+        height: 35vh;
+        margin-top: 8vh;
+    }
+    /* ---------------------------------------------submet---------------------------------------- */
+    
+    .container-fluid {
+        padding: 1vh;
+        width: 50vh;
+        height: 100%;
+        display: block;
+        padding: 10vh;
+    }
+    
+    .inputs {
+        padding: 1vh 0 1vh 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        border-radius: 5vh;
+        justify-content: center;
+        background: var(--whaet);
+    }
+    
+    .inputs input[type="text"] {
+        height: 10vh;
+        width: 100%;
+        color: #000;
+        background: #212121;
+        font-weight: bold;
+        font-size: 3vh;
+        padding: 2vh;
+        border: none;
+        background-color: transparent;
+        border: 2px solid #c2c2c2;
+        border-radius: 2vh;
+        margin-right: 4px;
+        margin-top: 10vh;
+    }
+    
+    .inputs input[type="submit"] {
+        height: 5vh;
+        width: 15vh;
+        background: var(--blou);
+        font-weight: bold;
+        color: white;
+        font-size: 3vh;
+        margin-top: 7vh;
+        border: none;
+        border-radius: 4vh;
+    }
+    
+    .inputs input[type="submit"]:hover {
+        background-color: var(--bloux);
+        color: black;
+        border: 1px solid black;
+    }
+    /* ---------------------------------------------end submet---------------------------- */
+    /* ----------------------------------------------slider hour------------------- */
+    
+    ul {
+        list-style: none;
+    }
+    
+    .lSPager {
+        display: none;
+    }
+    
+    .lSSlideOuter {
+        margin-top: 2000px;
+        margin-bottom: 40px;
+    }
+    
+    .post-slide {
+        width: 100px;
+        height: 180px;
+        background-color: var(--bloux);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin: 5px 5px;
+    }
+    
+    .post-slide p {
+        text-align: center;
+    }
+    /* ----------------------------------------------------end slider hour---------------------------------------- */
+    /* --------------------------------------------------dayes for labtop---------------------------------------- */
+    
+    .box {
+        width: 100%;
+        background-color: var(--bloux);
+        border-radius: 5px;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin-bottom: 5vh;
+    }
+    
+    .labtop {
+        width: 100%;
+    }
+    
+    .box .row .col-lg-2 {
+        text-align: center;
+    }
+    
+    .labtop .row .col-lg-12 {
+        text-align: center;
+    }
