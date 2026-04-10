@@ -93,7 +93,7 @@ axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}
 5. Open PR!
 
 ## 📄 License
-MIT License - see [LICENSE](LICENSE) *(Add if needed)*
+MIT License - see [LICENSE](LICENSE)
 
 ## 🙏 Acknowledgments
 - [OpenWeatherMap](https://openweathermap.org/) for weather data.
