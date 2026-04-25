@@ -294,6 +294,20 @@ btn.addEventListener('click', function () {
                         }
                     }
 
+                    // Initialize or refresh lightSlider for hourly forecast
+                    if ($('#autoWidth').hasClass('lightSlider')) {
+                        $('#autoWidth').refresh();
+                    } else {
+                        $('#autoWidth').lightSlider({
+                            autoWidth: true,
+                            loop: false,
+                            pager: false,
+                            controls: true,
+                            slideMargin: 10,
+                            enableTouch: true,
+                            enableDrag: true
+                        });
+                    }
 
                 })
 
